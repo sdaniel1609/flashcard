@@ -30,7 +30,7 @@ function hideIcons(flashCardId) {
 }
 
 // state 2
-function toggleRight(flashCardId) {
+function toggleRightAnswer(flashCardId) {
     // show card face front
     toggleFlip(flashCardId);
     //reveal answer button hidden
@@ -43,7 +43,7 @@ function toggleRight(flashCardId) {
 }
 
 // state 3 
-function toggleWrong(flashCardId) {
+function toggleWrongAnswer(flashCardId) {
     // show card face front
     toggleFlip(flashCardId);
     //reveal answer button hidden
