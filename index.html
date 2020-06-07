@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flash Card</title>
+</head>
+<body>
+    <div class="container">  
+
+        <div class="card" id="flashcard-1">
+            <div class="card-front">
+                <h4>What is JavaScript?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-1')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-1')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>A multi-paradigm lightweight, interpreted programming language.</p>
+                <button onclick="toggleRight('flashcard-1')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-1')">I got it wrong</button>
+            </div>
+        </div>    
+
+        <div class="card" id="flashcard-2">
+            <div class="card-front">
+                <h4>What are the data types supported by JavaScript?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-2')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-2')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Undefined, Number, String, Object, Symbol, Boolean, Null</p>
+                <button onclick="toggleRight('flashcard-2')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-2')">I got it wrong</button>
+            </div>
+        </div>        
+        
+        <div class="card" id="flashcard-3">
+            <div class="card-front">
+                <h4>What are the ways to define a variable in JavaScript??</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-3')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-3')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Var, Let, Const</p>
+                <button onclick="toggleRight('flashcard-3')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-3')">I got it wrong</button>
+            </div>
+        </div>  
+
+        <div class="card" id="flashcard-4">
+            <div class="card-front">
+                <h4>Question?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-4')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-4')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Answer</p>
+                <button onclick="toggleRight('flashcard-4')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-4')">I got it wrong</button>
+            </div>
+        </div>      
+
+        <div class="card" id="flashcard-5">
+            <div class="card-front">
+                <h4>Question?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-5')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-5')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Answer</p>
+                <button onclick="toggleRight('flashcard-5')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-5')">I got it wrong</button>
+            </div>
+        </div> 
+
+        <div class="card" id="flashcard-6">
+            <div class="card-front">
+                <h4>Question?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-6')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-6')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Answer</p>
+                <button onclick="toggleRight('flashcard-6')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-6')">I got it wrong</button>
+            </div>
+        </div> 
+
+        <div class="card" id="flashcard-7">
+            <div class="card-front">
+                <h4>Question?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-7')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-7')">Reset it Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Answer</p>
+                <button onclick="toggleRight('flashcard-7')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-7')">I got it wrong</button>
+            </div>
+        </div>      
+
+        <div class="card" id="flashcard-8">
+            <div class="card-front">
+                <h4>Question?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-8')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-8')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Answer</p>
+                <button onclick="toggleRight('flashcard-8')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-8')">I got it wrong</button>
+            </div>
+        </div> 
+
+        <div class="card" id="flashcard-9">
+            <div class="card-front">
+                <h4>Question?</h4>
+                <div>
+                    <button class="reveal-btn" onclick="toggleFlip('flashcard-9')">Reveal Answer</button>
+                    <button class="reset-btn hide" onclick="resetFlashcard('flashcard-9')">Reset Flashcard</button>
+                </div>
+                <div>
+                    <img class="answer-status-icon right-icon hide" src="https://img.icons8.com/officel/40/000000/checked-2--v2.png"/>
+                    <img class="answer-status-icon wrong-icon hide" src="https://img.icons8.com/ultraviolet/40/000000/multiply-2.png"/> 
+                </div>
+            </div>
+            <div class="card-back">
+                <p>Answer</p>
+                <button onclick="toggleRight('flashcard-9')"> I got it right</button>
+                <button onclick="toggleWrong('flashcard-9')">I got it wrong</button>
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
